@@ -376,7 +376,7 @@ mySprite.setPosition(7, 61)
 controller.moveSprite(mySprite, 100, 100)
 mySprite.setFlag(SpriteFlag.StayInScreen, true)
 info.setLife(6)
-game.onUpdateInterval(900, function () {
+game.onUpdateInterval(300, function () {
     plastic = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . f f f f . . . . . . . 
